@@ -13,15 +13,16 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "bin",
-      "title": "bin",
-      "subtitle": "Empty Bin",
+      "name": "empty-bin",
+      "title": "Empty Bin",
+      "subtitle": "CleanMyMac",
       "description": "Empties the MacOS bin with CleanMyMac without opening the application.",
       "mode": "view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.39.3"
+    "@raycast/api": "^1.39.3",
+    "run-applescript": "^6.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
